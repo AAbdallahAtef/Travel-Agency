@@ -1,0 +1,69 @@
+.contactus .image-content {
+  position: 0;
+  top: 0px;
+  left: 0px;
+  background-image: url(../../public/Images/egy4.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.contactus .layout {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.644);
+  z-index: 11;
+}
+.contactus .text-content {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 22;
+}
+.contactus .text-content h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ededed;
+}
+.contactus .text-content p {
+  text-align: center;
+  width: 45vw;
+  font-size: 22px;
+  color: #ededed;
+}
+.contactus .text-content button,
+.contactus .text-content a {
+  background-color: #589abb;
+  color: #ededed;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 6px 16px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* start form */
+.contactus .form-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.contactus .form-content p {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.contactus .form-content span {
+  color: #589abb;
+}

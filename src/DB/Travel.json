@@ -1,0 +1,338 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "Password": "1234567",
+      "booked_packages_ids": [
+        1,
+        2
+      ],
+      "isAdmin": false
+    },
+    {
+      "id": "456",
+      "name": "Alice Smith",
+      "email": "alice.smith@gmail.com",
+      "Password": "1234",
+      "booked_packages_ids": [
+        2,
+        3
+      ],
+      "isAdmin": false
+    },
+    {
+      "id": "789",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@gmail.com",
+      "booked_packages_ids": [
+        3,
+        4
+      ],
+      "isAdmin": false
+    },
+    {
+      "id": "101",
+      "name": "Eva Davis",
+      "email": "eva.davis@gmail.com",
+      "Password": "123456",
+      "booked_packages_ids": [
+        4,
+        5
+      ],
+      "isAdmin": false
+    },
+    {
+      "id": "112",
+      "name": "Michael Brown",
+      "email": "michael.brown@gmail.com",
+      "Password": "1234",
+      "booked_packages_ids": [
+        5,
+        6
+      ],
+      "isAdmin": false
+    },
+    {
+      "id": "123",
+      "name": "Abdallah Atef",
+      "email": "abdallaatef12@gmail.com",
+      "Password": "123456789",
+      "booked_packages_ids": [
+        6,
+        1
+      ],
+      "isAdmin": true
+    },
+    {
+      "id": "122",
+      "name": "Amira Badawy",
+      "email": "amirabadawy2001@gmail.com",
+      "Password": "123456789",
+      "booked_packages_ids": [
+        6,
+        1
+      ],
+      "isAdmin": true
+    }
+  ],
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Cairo",
+      "description": "The capital city of Egypt, known for its rich history and landmarks.",
+      "location": "30.0444° N, 31.2357° E",
+      "activities": [
+        {
+          "Name": "Visit the Pyramids",
+          "Cost": "riding horse will cost you 200 pound",
+          "Way_to_go": "You can take the metro to EL-haram station this will cost from 6 to 15 pound and then a taxi from the metro to the pyramids and this will cost from 50 to 100 pound"
+        },
+        {
+          "Name": "Explore the Egyptian Museum",
+          "Cost": "the ticket will cost you 50 pound",
+          "Way_to_go": "You can take the metro to EL-Sadat station this will cost from 6 to 15 pound and then you will walk about 50 metre to the  museum "
+        },
+        {
+          "Name": "Nile River Cruise",
+          "Cost": "the Cruise will cost 200 pound",
+          "Way_to_go": "You can take the metro to EL-Sadat station this will cost from 6 to 15 pound and then take a taxi to the nile river and this will cost from 30 to 60 pound"
+        }
+      ],
+      "image_url": "https://media.cntraveler.com/photos/655cdf1d2d09a7e0b27741b5/16:9/w_2560%2Cc_limit/Cairo%2520Egypt_GettyImages-1370918272.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Luxor",
+      "description": "Known as the 'world's greatest open-air museum', Luxor is home to ancient temples and monuments.",
+      "location": "25.6872° N, 32.6396° E",
+      "activities": [
+        {
+          "Name": "Visit Karnak Temple",
+          "Cost": "the ticket will cost you 50 pound",
+          "Way_to_go": "you can take a taxi that cost from 100 to 200 pound"
+        },
+        {
+          "Name": "Explore Valley of the Kings",
+          "Cost": "the ticket will cost you 70 pound",
+          "Way_to_go": "you can take a taxi that cost from 100 to 200 pound"
+        },
+        {
+          "Name": "Hot Air Balloon Ride",
+          "Cost": "the ride will cost you 40 pound",
+          "Way_to_go": "you can take a taxi that cost from 70 to 160 pound"
+        }
+      ],
+      "image_url": "https://lp-cms-production.imgix.net/2023-07/iStock-1446592007.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75"
+    },
+    {
+      "id": "3",
+      "name": "Sharm El Sheikh",
+      "description": "A popular resort destination on the Red Sea, known for its coral reefs and vibrant marine life.",
+      "location": "27.9158° N, 34.3297° E",
+      "activities": [
+        {
+          "Name": "Snorkeling",
+          "Cost": "this will cost you 40 pound",
+          "Way_to_go": "you will found snorkeling in each beach"
+        },
+        {
+          "Name": "Diving",
+          "Cost": "this will cost you 70 pound",
+          "Way_to_go": " you can Book a diving excursion in any beach"
+        },
+        {
+          "Name": "Relaxing on the Beach",
+          "Cost": "the ticket of beaches cost from 100 to 200 pound",
+          "Way_to_go": "there is many beaches"
+        }
+      ],
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/517140792.jpg?k=ef3f8fed4f191561a3eb765bc7b79cec84c8c1f167908f6864f6cbc4fb542ccd&o=&hp=1"
+    },
+    {
+      "id": "4",
+      "name": "Alexandria",
+      "description": "A coastal city with a rich history, known for its ancient library and historic sites.",
+      "location": "31.2156° N, 29.9553° E",
+      "activities": [
+        {
+          "Name": "Visit Bibliotheca Alexandrina",
+          "Cost": "the ticket will cost you 20 pound",
+          "Way_to_go": "You can take the tramway to el gamaa station this will cost from 5 to 10 pound and then you will walk about 700 metre to the  Bibliotheca"
+        },
+        {
+          "Name": "Explore Qaitbay Citadel",
+          "Cost": "the ticket will cost you 50 pound",
+          "Way_to_go": "You can take the tramway to halaet el samak station this will cost from 5 to 10 pound and then you will walk about 500 metre to the  citadel"
+        },
+        {
+          "Name": "Explore Royal Jewelry Museum",
+          "Cost": "the ticket will cost you 70 pound",
+          "Way_to_go": "You can take the tramway to gelem station this will cost from 5 to 10 pound and then you will walk about 400 metre to the  museum"
+        }
+      ],
+      "image_url": "https://travelair.club/wp-content/uploads/2022/09/Alexandria-f-1024x685-1.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Aswan",
+      "description": "A picturesque city along the Nile River, famous for its ancient temples and Nubian culture.",
+      "location": "24.0889° N, 32.8998° E",
+      "activities": [
+        {
+          "Name": "Visit Abu Simbel",
+          "Cost": "the ticket will cost you 50 pound",
+          "Way_to_go": "you can take a taxi that cost from 100 to 200 pound"
+        },
+        {
+          "Name": "Nile Felucca Cruise",
+          "Cost": "the Cruise will cost 300 pound",
+          "Way_to_go": "you can take a taxi that cost from 50 to 100 pound"
+        },
+        {
+          "Name": "Explore Philae Temple",
+          "Cost": "the ticket will cost you 70 pound",
+          "Way_to_go": "you can take a taxi that cost from 150 to 200 pound"
+        }
+      ],
+      "image_url": "https://mediaim.expedia.com/destination/1/047cfae08d1253422699d8b9fd9d8e5a.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Dahab",
+      "description": "A laid-back coastal town on the Sinai Peninsula, known for its beaches and water sports.",
+      "location": "28.5095° N, 34.5136° E",
+      "activities": [
+        {
+          "Name": "Windsurfing",
+          "Cost": "this will cost you 60 pound",
+          "Way_to_go": "you can take a car that cost from 100 to 200 pound"
+        },
+        {
+          "Name": "Camel Safari",
+          "Cost": "this will cost you 200 pound",
+          "Way_to_go": "you can take a car that cost from 200 to 250 pound"
+        },
+        {
+          "Name": "Blue Hole Diving",
+          "Cost": "this will cost you 40 pound",
+          "Way_to_go": "you can take a car that cost from 150 to 200 pound"
+        }
+      ],
+      "image_url": "https://www.scuba.com/blog/wp-content/uploads/2017/07/dahab-blue-hole-shutterstock_1748271710.jpg"
+    }
+  ],
+  "tour_packages": [
+    {
+      "id": "1",
+      "destination_name": "Cairo",
+      "name": "Historical Cairo Tour",
+      "description": "Discover the historical treasures of Cairo.",
+      "price": 800,
+      "duration_days": 7,
+      "included_activities": [
+        "Pyramids Tour",
+        "Museum Visit",
+        "Cruise on the Nile"
+      ],
+      "image_url": "https://egyptianstreets.com/wp-content/uploads/2021/04/museum2.jpg"
+    },
+    {
+      "id": "2",
+      "destination_name": "Luxor",
+      "name": "Nile Discovery Tour",
+      "description": "Experience the magic of Luxor and a Nile River cruise.",
+      "price": 1200,
+      "duration_days": 10,
+      "included_activities": [
+        "Temple Visits",
+        "Valley of the Kings Exploration",
+        "Nile Cruise"
+      ],
+      "image_url": "https://www.mmetours.com/images/tour_galleries/Holy_Lands/Egypt2.jpg"
+    },
+    {
+      "id": "3",
+      "destination_name": "Sharm El Sheikh",
+      "name": "Red Sea Adventure",
+      "description": "Discover the underwater wonders of Sharm El Sheikh with snorkeling and diving excursions.",
+      "price": 1000,
+      "duration_days": 8,
+      "included_activities": [
+        "Snorkeling Tours",
+        "Diving Expeditions",
+        "Beach Resort Stay"
+      ],
+      "image_url": "https://static.toiimg.com/img/100779433/Master.jpg"
+    },
+    {
+      "id": "4",
+      "destination_name": "Alexandria",
+      "name": "Alexandria Cultural Tour",
+      "description": "Immerse yourself in the history and culture of Alexandria's iconic landmarks.",
+      "price": 900,
+      "duration_days": 7,
+      "included_activities": [
+        "Bibliotheca Alexandrina Visit",
+        "Qaitbay Citadel Exploration",
+        "Cultural Walking Tour"
+      ],
+      "image_url": "https://www.nileempire.com/wp-content/uploads/2022/03/alexandria.jpg"
+    },
+    {
+      "id": "5",
+      "destination_name": "Aswan",
+      "name": "Nubian Adventure",
+      "description": "Explore the wonders of Aswan, including the majestic Abu Simbel temples and a Nile felucca cruise.",
+      "price": 1100,
+      "duration_days": 9,
+      "included_activities": [
+        "Abu Simbel Tour",
+        "Nile Felucca Cruise",
+        "Philae Temple Visit"
+      ],
+      "image_url": "https://aswanvisit.info/pics/slide/portrait/heading_nubianhouse.jpg"
+    },
+    {
+      "id": "6",
+      "destination_name": "Dahab",
+      "name": "Sinai Beach Retreat",
+      "description": "Experience the tranquility of Dahab with water sports, camel safaris, and diving in the famous Blue Hole.",
+      "price": 950,
+      "duration_days": 6,
+      "included_activities": [
+        "Windsurfing Lessons",
+        "Camel Safari Adventure",
+        "Blue Hole Diving"
+      ],
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/97/8b/a9/beach-overview.jpg?w=700&h=-1&s=1"
+    },
+    {
+      "id": "7",
+      "destination_name": "ElMansourah",
+      "name": "happy day",
+      "description": "good",
+      "price": 1200,
+      "duration_days": 12,
+      "included_activities": [
+        "snorkling",
+        "playing"
+      ],
+      "image_url": "https://i.pinimg.com/originals/17/02/aa/1702aa56c30709698368fb400ed16b70.jpg"
+    },
+    {
+      "id": "8",
+      "destination_name": "ElMansourah",
+      "name": "amira",
+      "description": "ksjdjldj",
+      "price": 250,
+      "duration_days": 12,
+      "included_activities": [
+        "snorkling",
+        "playing"
+      ],
+      "image_url": "https://i.pinimg.com/originals/17/02/aa/1702aa56c30709698368fb400ed16b70.jpg"
+    }
+  ]
+}

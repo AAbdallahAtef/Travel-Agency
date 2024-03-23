@@ -1,0 +1,47 @@
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+
+  color: #fff;
+}
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+ 
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(28, 19, 19, 0.15);
+
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+.box-shadow {
+    box-shadow: 0 4px 6px rgba(91, 77, 77, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card{
+    transition: transform .3s;
+  } 
+
+
+  

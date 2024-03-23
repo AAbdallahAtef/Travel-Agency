@@ -1,0 +1,78 @@
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(3) rotate(45deg);
+    margin: 64px;
+}
+.web_name{
+    margin-top: 52px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    margin-left: 108px;
+    font-weight: bold;
+}
+
+.locations{
+    line-height: 1;
+}
+.locations_header{
+    margin-top: 42px;
+    font-size: 30px;
+    margin-left:  -1065px;
+    
+}
+.locations_second{
+    font-weight: 700;
+    font-size: 70px;
+    margin-left: -903px;
+    margin-bottom: 42px;
+}
+
+.cards_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px;
+    justify-content: center;
+    position: relative;
+    
+}
+.card{
+    box-shadow:15px 13px 20px 0px;
+}
+
+button{
+    position: absolute;
+    width: 139px;
+}
+.work_second_container{
+    margin-top: 100px;
+}
+.work_header{
+    font-size: 30px;
+}
+.second_work_header{
+    font-weight: 700;
+    font-size: 70px;
+}
+.text{
+    display: flex;
+    justify-content: left;
+    gap: 17px;
+}
+
+.badge{
+    background-color: #b2cad9;
+    color: white;
+    border-radius: 10px;
+     padding: 8px;
+    margin: 11px
+}
